@@ -1,6 +1,4 @@
-import { useNavigate, Link } from "react-router-dom";
-// import "./notfound.css";
-import { Banner } from "../../components/Banner/Banner";
+import { Link } from "react-router-dom";
 
 export const NotFound = () => {
 
