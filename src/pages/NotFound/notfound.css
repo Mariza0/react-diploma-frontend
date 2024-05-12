@@ -1,0 +1,19 @@
+.notFound {
+    display: grid;
+    place-content: center;
+    text-align: center;
+
+    &__btn {
+        padding: 5px 10px;
+        border: 1px solid blue;
+        border-radius: 8px;
+        cursor: pointer;
+        color: blue;
+        transition: 0.3s;
+
+        &:hover {
+            background: blue;
+            color: #fff;
+        }
+    }
+}
